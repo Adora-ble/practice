@@ -17,5 +17,6 @@ export default createBoard({
             right: 0,
             bottom: 0,
         },
+        windowBackgroundColor: '#e6e6e6',
     },
 });

@@ -5,9 +5,30 @@
     display: flex;
     flex-direction: column;
     row-gap: 0.5em;
-    background-color: $snow-white;
+    background-color: #131D53;
     padding-top: 2em;
     padding-bottom: 2em;
+    background-image: linear-gradient(#121C4F, #121C4F);
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-image: linear-gradient(#101946, #101946);
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-image: linear-gradient(#121D4B, #121D4B);
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
 }
 
 .title {

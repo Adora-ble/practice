@@ -4,7 +4,6 @@ import { ReactComponent as FacebookIcon } from '../../assets/facebook.svg';
 import { ReactComponent as TwitterxIcon } from '../../assets/twitterx.svg';
 import { ReactComponent as DiscordIcon } from '../../assets/discord.svg';
 import { ReactComponent as YoutubeIcon } from '../../assets/youtube.svg';
-import { ReactComponent as MediumIcon } from '../../assets/medium.svg';
 import { ReactComponent as GithubIcon } from '../../assets/github.svg';
 
 export interface FooterProps {
@@ -19,15 +18,13 @@ export const Footer = ({ className }: FooterProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <div className={styles.details}>
-                <div>Contact Jane Doe</div>
+                <div>Всі права захищено</div>
                 <div className={styles.small}>
-                    Mail: info@mysite.com
+                    (c) Kyiv 2024
                     <br />
-                    Tel: 123-456-7890
+                    Tel: +380678459054
                     <br />
-                    500 Terry Francine Street,
-                    <br />
-                    San Francisco, CA 94158
+
                 </div>
             </div>
             <div className={styles.social}>
@@ -43,12 +40,8 @@ export const Footer = ({ className }: FooterProps) => {
                 <a href="/">
                     <YoutubeIcon className={styles.icon} />
                 </a>
-                <a href="/">
-                    <MediumIcon className={styles.icon} />
-                </a>
-                <a href="/">
-                    <GithubIcon className={styles.icon} />
-                </a>
+                <GithubIcon className={styles.icon} />
+                <a href="/"></a>
             </div>
         </div>
     );

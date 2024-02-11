@@ -4,13 +4,34 @@
     font: $large-font;
     display: flex;
     flex-direction: row;
-    background-color: $snow-white;
+    background-color: #0D2146;
     padding-top: 2em;
     padding-bottom: 3em;
     justify-content: center;
     padding-right: 7em;
     padding-left: 7em;
     column-gap: 5em;
+    background-image: linear-gradient(#3C1D1D, #3C1D1D);
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-image: linear-gradient(#3C1D1D, #3C1D1D);
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-image: none;
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
 }
 
 .title {

@@ -5,6 +5,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-image: linear-gradient(white, white);
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
 }
 
 .content {

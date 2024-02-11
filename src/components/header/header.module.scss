@@ -13,6 +13,17 @@
     @media only screen and (max-width: $mobile-width) {
         padding: 0 3em
     }
+
+    background-image:none;
+    background-position:0%;
+    background-size:auto;
+    background-repeat:repeat;
+    background-attachment:scroll;
+    background-origin:padding-box;
+    background-clip:border-box;
+    background-color:#4F2B2B;
+    background-color:#4F2929;
+    background-color:#3F9DE4;
 }
 
 .menu {

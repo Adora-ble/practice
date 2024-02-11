@@ -13,19 +13,21 @@ export interface HeaderProps {
 export const Header = ({ className }: HeaderProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <a href="/">Logo</a>
+            <img src="https://i.imgur.com/3KcqmeM.png" alt="" />
+            <input />
+            <a href="/"></a>
             <div className={styles.menu}>
                 <NavLink
                     to="/"
                     className={({ isActive }) => classNames({ [styles.active]: isActive })}
                 >
-                    Home
+                    Register
                 </NavLink>
                 <NavLink
                     to="/about"
                     className={({ isActive }) => classNames({ [styles.active]: isActive })}
                 >
-                    About
+                    Login
                 </NavLink>
             </div>
         </div>
